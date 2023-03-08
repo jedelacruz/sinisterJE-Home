@@ -7,6 +7,10 @@ html{
     font-family: 'Inter', sans-serif;
     color: white;
 }
+::selection{
+  background-color: white;
+  color: black;
+}
 body{
     background-color: black;
 }
@@ -300,5 +304,5 @@ main{
     }
     .links{
         padding-top: 5vh;
-        padding-bottom: 10vh;
+        padding-bottom: 15vh;
     }

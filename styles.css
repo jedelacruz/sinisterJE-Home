@@ -159,36 +159,103 @@ main{
     margin: auto;
     width: 40%;
 }
-.about{
+.head{
     padding-top: 15vh;
+    display: flex;
 }
-.about-head{
+.headOne{
+    flex: 1;
+}
+.headTwo{
+    flex: 3.5;
+    padding-top: 22px;
+
+}
+.head img{
+    width: 100px;
+}
+.head-name{
     font-size: 22px;
     line-height: 26.4px;
-    padding-bottom: 30px;
 }
-.about-image-self{
+.head-work{
     font-size: 14px;
-    line-height: 16.8px;
+    line-height: 21px;
     opacity: 0.7;
 }
-.imgHead1{
-    padding-top: 7px;
-    padding-bottom: 7px;
-    width: 50%;
+.head-link{
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.5
 }
-.imgHead2{
-    padding-top: 7px;
-    padding-bottom: 7px;
-    width: 100%;
+.about{
+    padding-top: 5vh;
 }
-.about-txt-intro{
-  font-size: 14px;
+.about-head{
+    font-size: 14px;
     line-height: 16.8px;
-  opacity: 0.7;
+    padding-bottom: 7px;
 }
-.about-txt-intro{
-  padding-bottom: 15vh;
+.about-text{
+    font-size: 14px;
+    opacity: 0.7;
+    line-height: 21px;
+    padding-bottom: 7px;
+}
+.tool-exp{
+    padding-top: 4vh;
+}
+.toolExp-head{
+    font-size: 14px;
+    line-height: 16.8px;
+    padding-bottom: 30px;
+}
+.toolExpContainer{
+    display: flex;
+    padding-bottom: 30px;
+}
+.expContainerBox1{
+    flex:1;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.6;
+  }
+.expContainerBox2{
+    flex:3.5;
+    font-size: 14px;
+    line-height: 21px;
+  }
+.expContainerBox2-txt{
+    opacity: 0.7;
+    padding-top: 5px;
+}
+.links{
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+.links-head{
+    font-size: 14px;
+    line-height: 16.8px;
+    padding-bottom: 30px;
+}
+.link-container{
+    display: flex;
+    padding-bottom: 10px;
+}
+.link-box1{
+    flex: 1;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 21px;
+}
+.link-box2{
+    flex: 3.5;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+}
+.link-box2:hover{
+    text-decoration: underline;
 }
 @media only screen and (max-width: 768px) {
     main{
@@ -212,4 +279,30 @@ main{
         font-weight: 400;
         padding-left: 30px;
       }
-      
+      .head{
+        padding-top: 10vh;
+      }
+    .headOne{
+        flex: 1.5;
+    }
+    .headTwo{
+        flex: 3;
+    }
+    .expContainerBox1{
+        flex:1.5;
+      }
+    .expContainerBox2{
+        flex:3;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    .link-box1{
+        flex: 1.5;
+    }
+    .link-box2{
+        flex: 3;
+    }
+    .links{
+        padding-top: 5vh;
+        padding-bottom: 15vh;
+    }
